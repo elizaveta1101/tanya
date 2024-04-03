@@ -47,5 +47,6 @@ section {
     background-image: url('./assets/memes.png');
     background-position: bottom center;
     background-repeat: no-repeat;
+    background-size: contain;
     padding-top: 100px;
 }
