@@ -1,0 +1,51 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: url('./assets/bg.png') top center no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.25) ;
+    background-color: #fff;
+    background-image: url('./assets/card-bg.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat {
+    height: 766px;
+    background-image: url('./assets/clouds.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.memes {
+    background-image: url('./assets/memes.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
